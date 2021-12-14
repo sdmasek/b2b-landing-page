@@ -9,27 +9,141 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4 fs-2" href="#"><i class="bi bi-door-open"></i>B2B Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="container-fluid d-flex justify-content-end">
+                    <ul class="navbar-nav px-4">
+
+                        <li class="nav-item px-2 fs-4">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item px-2 fs-4">
+                            <a class="nav-link active" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item px-2 fs-4">
+                            <a class="nav-link active" href="#">Services</a>
+                        </li>
+                        <li class="nav-item px-2 fs-4">
+                            <a class="nav-link active" href="#">News</a>
+                        </li>
+                        <li class="nav-item px-2 fs-4">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <div class="row">
+        <div class="row mt-3">
             <div class="col">
-                Column
+                <h1 class="display-1 p-3">Revitalize your Business</h1>
+                <p class="p-3">Find out how with one click</p>
+                <button class="btn btn-primary btn-lg p-2 ms-3">BUTTON</button>
             </div>
             <div class="col">
-                Column
+                <img class="img-fluid" src="imgs/Sass_proj2.png" alt="picture of a landing page">
+
             </div>
-            <div class="col">
-                Column
+
+        </div>
+    </div>
+    <div class="container-fluid bg-info mt-5">
+        <!-- position-absolute top-50 bottom-0 -->
+        <div class="row mh-50">
+            <div class="col text-center fs-5">
+                <aside>
+                    <div class="mt-3">
+                        <i class="mt-5 bi bi-person-workspace" style="font-size: 2em;"></i>
+                        <p class="pt-3">Summary of Company</p>
+                        <p class="p-5 text-end">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste fuga
+                            aut
+                            numquam saepe
+                            iusto
+                            perspiciatis sed dignissimos, corrupti, eum, adipisci inventore illum vitae? Eaque fugiat
+                            blanditiis corrupti, in laborum ratione.</p>
+                    </div>
+                </aside>
+            </div>
+            <div class="col text-center">
+                <aside>
+                    <div class="mt-3">
+                        <i class="bi bi-boxes" style="font-size: 2em;"></i>
+                        <p class="pt-3">New Services</p>
+                        <p class="p-5 mx-3 text-end">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                            asperiores,
+                            quaerat
+                            consequatur
+                            perspiciatis ipsum repellendus eius quae officia aperiam ad odio minus consectetur expedita
+                            neque impedit eaque veritatis molestiae inventore?</p>
+                    </div>
+                </aside>
+            </div>
+            <div class="col text-center">
+                <aside>
+                    <div class="mt-3">
+                        <i class="bi bi-sliders" style="font-size: 2em;"></i>
+                        <p class="pt-3">How We Work</p>
+                        <p class="p-5 text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil
+                            nulla autem
+                            hic labore ea
+                            ut repellat assumenda in, doloribus saepe, obcaecati iure? Tempore veniam eveniet sit maxime
+                            reiciendis deserunt.</p>
+                    </div>
+                </aside>
+            </div>
+            <div class="col text-center">
+                <aside>
+                    <div class="mt-3">
+                        <i class="bi bi-lightbulb-fill" style="font-size: 2em;"></i>
+                        <p class="pt-3">Learn With Us</p>
+                        <p class="p-5 text-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                            incidunt rem
+                            iusto officia
+                            expedita harum earum inventore reprehenderit dignissimos minima id aliquid, porro
+                            praesentium.
+                            Voluptatem doloribus blanditiis obcaecati iusto mollitia?</p>
+                    </div>
+                </aside>
             </div>
         </div>
     </div>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <footer class="w-100 flex-shrink-0">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col lg-4 col-md-6 text-center">
+                    <h5 class="h1 text-white">Company.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.
+                        <a href="#" class="text-primary">Bootstrapious.com</a>
+                    </p>
+                </div>
+                <div class="col text-center">
+                    <p>&copy;A fake site</p>
+                </div>
+                <div class="col text-center">
+                    <p>I don't know</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 
 
 </body>
