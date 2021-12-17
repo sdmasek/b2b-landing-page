@@ -1,0 +1,36 @@
+a:hover{
+    color: rgb(202, 202, 202);
+}
+
+@media screen and (max-width: 320px){
+    h5, p, a, li{
+        text-align: center;
+        
+    }
+
+    .mt-3, .w-75{
+        width: 100%!important;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .mt-3, .w-75{
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mt-3, .w-75{
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .mt-3, .w-75{
+        width: 100%!important;
+    }
+}
