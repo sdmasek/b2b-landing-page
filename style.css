@@ -34,3 +34,9 @@ a:hover{
         width: 100%!important;
     }
 }
+
+@media screen and (max-width: 1200px) and (max-width: 1750px){
+    .mt-3, .w-75{
+        width: 100%!important;
+    }
+}
