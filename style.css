@@ -2,6 +2,7 @@ a:hover{
     color: rgb(202, 202, 202);
 }
 
+
 @media screen and (max-width: 320px){
     h5, p, a, li{
         text-align: center;

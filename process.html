@@ -48,31 +48,114 @@
         </div>
     </nav>
     <main>
-        <div class="container">
-            <div class="row">
-                <h1 class="display-3 text-center">How it Works</h1>
+        <!-- CONTAINER -->
+        <div class="container mt-5">
+            <!-- Header Row -->
+            <div class="row text-center w-50 mx-auto">
+                <h1 class="display-3">How it Works</h1>
                 <p class="lead p-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, rerum quisquam
                     similique repellendus quis omnis neque, hic officiis quasi, temporibus expedita enim ab?</p>
-                <div class="col">
-                    <i class="bi bi-laptop" style="font-size: 3em;"></i>
+            </div>
+            <!-- Main Content Row -->
+            <div class="row text-center">
+                <div class="col p-5">
+                    <h3 class="display-6">Get in Touch</h3>
+                    <i class="bi bi-laptop" style="font-size: 3.5em;"></i>
                     <p class="fs-5 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ea neque minus
-                        dolorum accusamus qui officiis delectus soluta impedit similique quo vel nemo, natus, dolores
-                        ullam mollitia! Ullam, enim cupiditate!</p>
+                        dolorum accusamus.</p>
                 </div>
-                <div class="col">
+                <div class="col p-5">
+                    <h3 class="display-6">Choose a Plan</h3>
+                    <i class="bi bi-cart-check" style="font-size: 3.5em;"></i>
                     <p class="fs-5 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ea neque minus
-                        dolorum accusamus qui officiis delectus soluta impedit similique quo vel nemo, natus, dolores
-                        ullam mollitia! Ullam, enim cupiditate!</p>
+                        dolorum accusamus qui officiis delectus soluta impedit.</p>
                 </div>
-                <div class="col">
+                <div class="col p-5">
+                    <h3 class="display-6">Download</h3>
+                    <i class="bi bi-download" style="font-size: 3.5em;"></i>
                     <p class="fs-5 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ea neque minus
-                        dolorum accusamus qui officiis delectus soluta impedit similique quo vel nemo, natus, dolores
-                        ullam mollitia! Ullam, enim cupiditate!</p>
+                        dolorum accusamus qui officiis.</p>
                 </div>
+                <!-- OFF CANVAS BUTTON -->
+            </div>
+            <div class="row text-center">
+                <div class="col my-5">
+                    <button class="btn btn-primary btn-lg w-25 my-5" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Click Here to Begin</button>
 
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                        aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <!-- <h5 class="offcanvas-title" id="offcanvasBottomLabel"></h5>
+                            <p class="fs-5">A memeber of our team will get back to you shortly!</p> -->
+                            <div class="vstack gap-3">
+                                <h5 class="offcanvas-title" id="offcanvasBottomLabel">Enter Your Email To Get Started
+                                </h5>
+                                <p class="fs-5">A memeber of our team will get back to you shortly!</p>
+                                <!-- <div class="bg-light border">Third item</div> -->
+                            </div>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            <div class="input-group mx-auto w-25">
+                                <input type="text" class="form-control" placeholder="email"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0 bg-dark">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">Company.</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.
+                        <a class="text-primary" href='https://www.freepik.com/vectors/business'>Business vector created
+                            by vectorjuice - www.freepik.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h5 class="text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary text-decoration-none" href="#">Home</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">About</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Careers</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h5 class="text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled text-decoration-none">
+                        <li><a class="text-secondary text-decoration-none" href="#">Terms & Conditions</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Accessibility</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Our Partners</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Global</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="email"
+                                aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button">
+                                <i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </main>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
