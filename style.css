@@ -2,6 +2,10 @@ a:hover{
     color: rgb(202, 202, 202);
 }
 
+.list-group-item + .bg-dark{
+    color: #fff;
+}
+
 
 @media screen and (max-width: 320px){
     h5, p, a, li{
