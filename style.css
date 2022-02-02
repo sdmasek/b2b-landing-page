@@ -2,7 +2,38 @@ a:hover{
     color: rgb(202, 202, 202);
 }
 
-.list-group-item + .bg-dark{
+.index-body + .bg-dark{
+    color: #fff;
+}
+
+.card{
+    border: #fff;
+}
+
+.list-group-item + .bg-dark {
+    color: #fff;
+}
+
+.standard-plan:first-child li, .expert-plan:first-child li, .prof-plan:first-child li{
+    border-bottom-width: 0;
+}
+
+.bi-brightness-alt-high, .bi-brightness-high, .bi-brightness-alt-low{
+    font-size: 2.5rem;
+}
+.services-text{
+    border-left: 1px solid grey;
+}
+
+.bi-check-lg{
+    font-size: 1.5rem;
+}
+ 
+.list-group-item:nth-of-type(odd){
+    background: rgb(235, 231, 231);
+}
+
+.list-group:last-child a{
     color: #fff;
 }
 
